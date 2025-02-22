@@ -1,0 +1,35 @@
+p {
+    color: #000;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+#miriP{
+    color: #001aff;
+    font-weight: bold;
+    display: block;
+    margin: 10px
+}
+
+#meme {
+    display: block;
+    margin: 20px auto;
+    width: auto;
+    height: 500px
+}
+
+#StinkBert {
+    text-align: center;
+    font-size: 22px;
+    font-weight:bold
+}
+
+body {
+    background-color: #008000;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center
+}
+
