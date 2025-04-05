@@ -122,79 +122,178 @@ function roastMeShakespeareStyle() {
 
 function randomYouTubeSurprise() {
     const videoIds = [
-        // Original List...
-
         // Rickroll Overkill
-        "dQw4w9WgXcQ", "eBGIQ7ZuuiU", "3GwjfUFyY6M", "DLzxrzFCyOs",
-
+        "dQw4w9WgXcQ", // Rick Astley - Never Gonna Give You Up
+        "oHg5SJYRHA0", // Alternate Rickroll Link
+        "6_b7RDuLwcI", // Another Rickroll Variant
+    
         // Meme Anthems & Iconic Music Vibes
-        "9Deg7VrpHbM", "ZZ5LpwO-An4", "QH2-TGUlwu4", "lXMskKTw3Bc",
-        "tVj0ZTS4WF4", "fLexgOxsZu0", "04854XqcfCY", "ZyhrYis509A",
-        "WGOohBytKTU", "YlEb3L1PIco", "YJVmu6yttiw", "GaoLU6zKaws",
-        "aWmkuH1k7uA", "YersIyzsOpc", "QK8mJJJvaes", "z9Uz1icjwrM",
-        "nZ-Bm0F1fSg", "mrVgEHZQStI", "vtPk5IUbdH0", "J---aiyznGQ",
-
+        "9Deg7VrpHbM", // Darude - Sandstorm
+        "ZZ5LpwO-An4", // Nyan Cat
+        "QH2-TGUlwu4", // Nyan Cat (Original)
+        "lXMskKTw3Bc", // Chocolate Rain
+        "tVj0ZTS4WF4", // A-ha - Take On Me
+        "fLexgOxsZu0", // Rick Astley - Together Forever
+        "04854XqcfCY", // Europe - The Final Countdown
+        "ZyhrYis509A", // a-ha - Take On Me (Official Video)
+        "WGOohBytKTU", // Flight of the Conchords - The Humans Are Dead
+        "YlEb3L1PIco", // OK Go - Here It Goes Again
+        "YJVmu6yttiw", // Skrillex - Bangarang
+        "GaoLU6zKaws", // PSY - Gangnam Style
+        "aWmkuH1k7uA", // Smash Mouth - All Star
+        "YersIyzsOpc", // Evolution of Dance
+        "QK8mJJJvaes", // OK Go - This Too Shall Pass
+        "z9Uz1icjwrM", // The Lonely Island - I'm On A Boat
+        "nZ-Bm0F1fSg", // The Lonely Island - Jizz In My Pants
+        "mrVgEHZQStI", // The Lonely Island - Like A Boss
+        "vtPk5IUbdH0", // The Lonely Island - I Just Had Sex
+        "J---aiyznGQ", // The Lonely Island - YOLO
+    
         // Viral Internet Chaos
-        "FzRH3iTQPrk", "tPEE9ZwTmy0", "QH2-TGUlwu4", "a3Z7zEc7AXQ",
-        "cYplvwBvGA4", "rY-FJvRqK0E", "sCNrK-n68CM", "rAlTOfl9F2w",
-        "NhheiPTdZCw", "iwGFalTRHDA", "ub82Xb1C8os", "q6EoRBvdVPQ",
-        "dMH0bHeiRNg", "6n3pFFPSlW4", "60ItHLz5WEA", "HtvIYRrgZ04",
-        "U9t-slLl30E", "kffacxfA7G4", "L_jWHffIx5E", "2ZIpFytCSVc",
-
+        "FzRH3iTQPrk", // Dramatic Chipmunk
+        "tPEE9ZwTmy0", // Sneezing Baby Panda
+        "a3Z7zEc7AXQ", // Keyboard Cat
+        "cYplvwBvGA4", // David After Dentist
+        "rY-FJvRqK0E", // Charlie Bit My Finger
+        "sCNrK-n68CM", // Double Rainbow
+        "rAlTOfl9F2w", // Bed Intruder Song
+        "NhheiPTdZCw", // Hide Yo Kids, Hide Yo Wife
+        "iwGFalTRHDA", // Trololo Song
+        "ub82Xb1C8os", // Numa Numa
+        "q6EoRBvdVPQ", // Star Wars Kid
+        "dMH0bHeiRNg", // Evolution of Dance
+        "6n3pFFPSlW4", // Afro Ninja
+        "60ItHLz5WEA", // Harlem Shake
+        "HtvIYRrgZ04", // Leave Britney Alone
+        "U9t-slLl30E", // Chocolate Rain
+        "kffacxfA7G4", // Justin Bieber - Baby
+        "L_jWHffIx5E", // Miley Cyrus - Party In The U.S.A.
+        "2ZIpFytCSVc", // Rebecca Black - Friday
+    
         // Gaming, Retro & Nostalgic Blasts
-        "N9qYF9DZPdw", "R1gqgD3cL7k", "9cR5hSkK6no", "cU0FqHdiVGI",
-        "Uj1ykZWtPYI", "HZnXUvG6pLs", "YbJOTdZBX1g", "sOnqjkJTMaA",
-        "Sagg08DrO5U", "y6120QOlsfU", "HPPj6viIBmU", "zCLOJ9j1k2Y",
-
+        "N9qYF9DZPdw", // Mortal Kombat Theme Song
+        "R1gqgD3cL7k", // Tetris Theme A
+        "9cR5hSkK6no", // Super Mario Bros. Theme
+        "cU0FqHdiVGI", // The Legend of Zelda Theme
+        "Uj1ykZWtPYI", // Pokémon Theme Song
+        "HZnXUvG6pLs", // Sonic the Hedgehog Theme
+        "YbJOTdZBX1g", // Michael Jackson - Thriller
+        "sOnqjkJTMaA", // Michael Jackson - Billie Jean
+        "Sagg08DrO5U", // Michael Jackson - Beat It
+        "y6120QOlsfU", // Darude - Sandstorm
+        "HPPj6viIBmU", // Mortal Kombat - Techno Syndrome
+        "zCLOJ9j1k2Y", // DuckTales Theme Song
+    
         // Unexpected Comedy & Cringe
-        "gGdGFtwCNBE", "BbeeuzU5Qc8", "SYnVYJDxu7c", "1k08yxu57NA",
-        "EqWRaAF6_WY", "FdcJVuylmsM", "vTIIMJ9tUc8", "kJQP7kiw5Fk",
-
+        "gGdGFtwCNBE", // The Killers - Mr. Brightside
+        "BbeeuzU5Qc8", // Smash Mouth - All Star
+        "SYnVYJDxu7c", // Limp Bizkit - Rollin'
+        "1k08yxu57NA", // Susan Boyle - Britain's Got Talent Audition
+        "EqWRaAF6_WY", // William Hung - She Bangs
+        "FdcJVuylmsM", // Rebecca Black - Friday
+        "vTIIMJ9tUc8", // Ylvis - The Fox (What Does The Fox Say?)
+        "kJQP7kiw5Fk", // Luis Fonsi - Despacito
+    
         // Deep Meme Lore
-        "dQw4w9WgXcQ", "S9x8h2s1lsw", "gGztd2y9N28", "2ZIpFytCSVc",
-        "yRmqZRPgK1w", "P_d0ykpzQgM", "KmtzQCSh6xk", "cGZkCPtOHnE",
-
+        "S9x8h2s1lsw", // We Are Number One
+        "gGztd2y9N28", // Shooting Stars Meme
+        "yRmqZRPgK1w", // He-Man - HEYYEYAAEYAAAEYAEYAA
+        "P_d0ykpzQgM", // Spiderman Pizza Theme
+        "KmtzQCSh6xk", // Numa Numa
+        "cGZkCPtOHnE", // Peanut Butter Jelly Time
+        "dQw4w9WgXcQ", // Rick Astley - Never Gonna Give You Up
+        "oHg5SJYRHA0", // Alternate Rickroll Link
+        "6_b7RDuLwcI", // Another Rickroll Variant
+        "9Deg7VrpHbM", // Darude - Sandstorm
+        "ZZ5LpwO-An4", // Nyan Cat
+        "QH2-TGUlwu4", // Nyan Cat (Original)
+        "lXMskKTw3Bc", // Chocolate Rain
+        "tVj0ZTS4WF4", // A-ha - Take On Me
+        "fLexgOxsZu0", // Rick Astley - Together Forever
+        "04854XqcfCY", // Europe - The Final Countdown
+        "ZyhrYis509A", // a-ha - Take On Me (Official Video)
+        "WGOohBytKTU", // Flight of the Conchords - The Humans Are Dead
+        "YlEb3L1PIco", // OK Go - Here It Goes Again
+        "YJVmu6yttiw", // Skrillex - Bangarang
+        "GaoLU6zKaws", // PSY - Gangnam Style
+        "aWmkuH1k7uA", // Smash Mouth - All Star
+        "YersIyzsOpc", // Evolution of Dance
+        "QK8mJJJvaes", // OK Go - This Too Shall Pass
+        "z9Uz1icjwrM", // The Lonely Island - I'm On A Boat
+        "nZ-Bm0F1fSg", // The Lonely Island - Jizz In My Pants
+        "mrVgEHZQStI", // The Lonely Island - Like A Boss
+        "vtPk5IUbdH0", // The Lonely Island - I Just Had Sex
+        "J---aiyznGQ", // The Lonely Island - YOLO
+        "FzRH3iTQPrk", // Dramatic Chipmunk
+        "tPEE9ZwTmy0", // Sneezing Baby Panda
+        "a3Z7zEc7AXQ", // Keyboard Cat
+        "cYplvwBvGA4", // David After Dentist
+        "rY-FJvRqK0E", // Charlie Bit My Finger
+        "sCNrK-n68CM", // Double Rainbow
+        "rAlTOfl9F2w", // Bed Intruder Song
+        "NhheiPTdZCw", // Hide Yo Kids, Hide Yo Wife
+        "iwGFalTRHDA", // Trololo Song
+        "ub82Xb1C8os", // Numa Numa
+        "q6EoRBvdVPQ", // Star Wars Kid
+        "dMH0bHeiRNg", // Evolution of Dance
+        "6n3pFFPSlW4", // Afro Ninja
+        "60ItHLz5WEA", // Harlem Shake
+        "HtvIYRrgZ04", // Leave Britney Alone
+        "U9t-slLl30E", // Chocolate Rain
+        "kffacxfA7G4", // Justin Bieber - Baby
+        "L_jWHffIx5E", // Miley Cyrus - Party In The U.S.A.
+        "2ZIpFytCSVc", // Rebecca Black - Friday
+        "dQw4w9WgXcQ", // Rick Astley - Never Gonna Give You Up
+        "oHg5SJYRHA0", // Alternate Rickroll Link
+        "6_b7RDuLwcI", // Another Rickroll Variant
+        "9Deg7VrpHbM", // Darude - Sandstorm
+        "ZZ5LpwO-An4", // Nyan Cat
+        "QH2-TGUlwu4", // Nyan Cat (Original)
+        "lXMskKTw3Bc", // Chocolate Rain
+        "tVj0ZTS4WF4", // A-ha - Take On Me
+        "fLexgOxsZu0", // Rick Astley - Together Forever
+        "04854XqcfCY", // Europe - The Final Countdown
+        "ZyhrYis509A", // a-ha - Take On Me (Official Video)
+        "WGOohBytKTU", // Flight of the Conchords - The Humans Are Dead
+        "YlEb3L1PIco", // OK Go - Here It Goes Again
+        "YJVmu6yttiw", // Skrillex - Bangarang
+        "GaoLU6zKaws", // PSY - Gangnam Style
+        "aWmkuH1k7uA", // Smash Mouth - All Star
+        "YersIyzsOpc", // Evolution of Dance
+        "QK8mJJJvaes", // OK Go - This Too Shall Pass
+        "z9Uz1icjwrM", // The Lonely Island - I'm On A Boat
+        "nZ-Bm0F1fSg", // The Lonely Island - Jizz In My Pants
+        "mrVgEHZQStI", // The Lonely Island - Like A Boss
+        "vtPk5IUbdH0", // The Lonely Island - I Just Had Sex
+        "J---aiyznGQ", // The Lonely Island - YOLO
+        "FzRH3iTQPrk", // Dramatic Chipmunk
+        "tPEE9ZwTmy0", // Sneezing Baby Panda
+        "a3Z7zEc7AXQ", // Keyboard Cat
+        "cYplvwBvGA4", // David After Dentist
+        "rY-FJvRqK0E", // Charlie Bit My Finger
+        "sCNrK-n68CM", // Double Rainbow
+        "rAlTOfl9F2w", // Bed Intruder Song
+        "NhheiPTdZCw", // Hide Yo Kids, Hide Yo Wife
+        "iwGFalTRHDA", // Trololo Song
+        "ub82Xb1C8os", // Numa Numa
+        "q6EoRBvdVPQ", // Star Wars Kid
+        "dMH0bHeiRNg", // Evolution of Dance
+    
         // Oddballs You Didn’t Know You Needed
-        "ht0_Gzqtf3M", "FPT1-5h3wxY", "F5yrBzFYhfs", "fC7oUOUEEi4",
-        "G6PD8LAVY6A", "GgL7o_rNUAM", "QHx5uU3HVOM", "c85xkFoquyA",
-        "u06XEgF3kaw", "UNAr5tzZxdk", "Hp8yGfRVlGQ", "Nn5jlrxcpkI",
-        "8ybW48rKBME", "Z2xWZ9lMrtk",
+        "ht0_Gzqtf3M", // Badger Badger Badger
+        "FPT1-5h3wxY", // Llama Song
+        "F5yrBzFYhfs", // The Duck Song
+        "fC7oUOUEEi4", // The Duck Song 2
+        "G6PD8LAVY6A", // The Duck Song 3
+        "GgL7o_rNUAM", // Narwhals Song
+        "QHx5uU3HVOM", // It's Raining Tacos
+        "c85xkFoquyA", // Cat Vibing to Ievan Polkka
+        "u06XEgF3kaw", // Baby Shark Dance
+        "UNAr5tzZxdk", // Crazy Frog - Axel F
+        "q4d5v1z9c7E", // Crazy Frog - We Are The Champions 
 
-        // === NEW ADDITIONS ===
-
-        // Vine & TikTok Classics
-        "F4tHL8reNCs", "xVt0D1Wz7mY", "xUNqsfUvv-c", "JqEuArKfG6A", "fUXhPYSoNlQ",
-        "nP3dZ5B8KZk", "5sYxbELoLEk", "H5kV1N9cSFM", "Hg3HZU3X3_0", "1etTsp9_MbM",
-        "x2-Mcp1Q2AA", "rbMbQHHy2RE", "KymuqNLd7Fw", "0xX5VZ4G5YU",
-
-        // Chaotic Energy & Unhinged Edits
-        "pD_imYhNoQ4", "7QUtEmBT_-w", "v=lXMskKTw3Bc", "9Deg7VrpHbM", "frszEJb0aOo",
-        "2ZIpFytCSVc", "HZ3rYdW8uK8", "NVGVZuqBQeA", "GUV0eWxV0Sk", "Z6vFNEIhSts",
-
-        // YouTube Poop & Glitchcore
-        "YxJfzvOdS5A", "2i43x_AbS20", "Lv-sY_z8MNs", "EzC8nOdbD3A", "zK7Zb_jTqgA",
-        "MNk7sFlAxGA", "v0hRx35BR_Y", "KcnSBS3RK1U", "CywzWlsEwVk", "t5UiqKxuDHY",
-
-        // Random 3AM Internet Finds
-        "owGykVbfgUE", "LMY2tj4b1nw", "kl1ujzRidmU", "XXkz2TTD7N8", "EdB0r4eU_mQ",
-        "MdHYKQ_WdXk", "QsAU5vBA53g", "B0M0TWKJt9Y", "3kqGWlbrM7c", "DRgV9SyzZIc",
-
-        // Nostalgia Bombs
-        "xtZpyOHThfI", "Y-LIplpE5Nc", "BLf09bSA9j4", "9D-QD_HIfjA", "JkEJHdfuwUk",
-        "1loBNxAxG7Q", "kXYiU_JCYtU", "7wtfhZwyrcc", "3JWTaaS7LdU", "hTWKbfoikeg",
-
-        // Strange Music That Slaps Anyway
-        "t3otBjVZzT0", "xat1GVnl8-k", "ScNNfyq3d_w", "mWRsgZuwf_8", "6Ejga4kJUts",
-        "F57P9C4SAW4", "O-ZpOMYRi0w", "kJQP7kiw5Fk", "uelHwf8o7_U", "u9Dg-g7t2l4",
-
-        // "Why is this on YouTube?" Vibes
-        "pco91kroVgQ", "aiMZ2gR8xPY", "3H2D6fL2KzE", "ZZ5LpwO-An4", "DJztXj2GPfk",
-        "FzG4uDgje3M", "blpe_sGnnP4", "GxBSyx85Kp8", "fJ9rUzIMcZQ", "Dq9gvLnt53k",
-        "nCkpzqqog4k", "rS9z86xMB5I", "2vjPBrBU-TM", "9bZkp7q19f0", "ht0_Gzqtf3M",
-
-        // More Rickrolls for Good Measure
-        "oHg5SJYRHA0", "dPmZqsQNzGA", "dQw4w9WgXcQ", "6_b7RDuLwcI"
     ];
+     
 
     const randomId = videoIds[Math.floor(Math.random() * videoIds.length)];
     const url = `https://www.youtube.com/watch?v=${randomId}`;
