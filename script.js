@@ -109,3 +109,13 @@ function spezi() {
     window.location.href = 'spezi.html';
 }
 
+
+function roastMeShakespeareStyle() {
+    const part1 = ["Thou", "Ye", "O", "Hark, thou"];
+    const part2 = ["artless", "bootless", "clouted", "frothy", "reeky", "puny", "craven", "paunchy"];
+    const part3 = ["hedge-pig", "scullion", "maggot-pie", "clotpole", "bum-bailey", "popinjay", "horn-beast"];
+
+    const insult = `${part1[Math.floor(Math.random() * part1.length)]} ${part2[Math.floor(Math.random() * part2.length)]} ${part3[Math.floor(Math.random() * part3.length)]}!`;
+
+    alert(insult);
+}
