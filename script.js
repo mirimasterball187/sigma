@@ -42,46 +42,17 @@ function rollDice() {
 }
 
 function Joketeller() {
-    const jokes = [
-        "Why did the invisable man turn down the job offer? He couldn't see himself doing it.",
-        "Why do barbers make good drivers? They know a lot of short cuts.",
-        "A blind man walks into a bar. And a table. And a chair.",
-        "You'll never guess who I bumped into on the way to the opticians! Everyone.",
-        "What do you get when you mix human DNA with goat DNA? Kicked out of the petting zoo.",
-        "What's the difference between an irish funeral and an irish wedding? One less drunk.",
-        "The Secret Service just had to change protocol for when the president is in danger. Instead of yelling 'Get down!', they now have to yell 'Donald, duck!'",
-        "A Mexican Magician says that he will disappear on the count of three. He says: 'und, dos...' Poof, he disapeared without a tres.",
-        "A drill sergeant walks into a bar. He orders everyone around.",
-        "What did the communist smoke? We'd.",
-        "Say what you want about deaf people.",
-        "I know a lot of jokes about unemployed people, but none of them work.",
-        "A solider survived mustard gas in battle and pepper spray from the police. Now he's a seasoned veteran.",
-        "I hate Russian Dolls. So full of themselves.",
-        "You should commit a crime, maybe then you'll finally be wanted.",
-        "My father has the heart of a lion and a livelong ban from the zoo.",
-        "I can't stand beeing in a wheelchair.",
-        "What's the best thing about switzerland? I don't know, but their flag is a huge plus.",
-        "Why was 6 afreid of 7? Because 7 8 9? No, it's because 7 ist a registered 6-offender.",
-        "What do you call it when Batman skips Church? Christian Bale.",
-        "What did the cannibal do after he dumped his girlfriend? Wipe his ass.",
-        "'I stand corrected.', said the man in the orthopedic shoes.",
-        "Don't hire a midget as a chef. The steaks are too high.",
-        "A baby seal walks into a club. You're an idiot, seals don't walk.",
-        "Rick Astley will let you borrow any movie from his pixar collection, exept one. He's never gonna give you Up.",
-        "I quit using meth for good. Now I use it for evil.",
-        "An esculator can never break, it can only temporary become stairs.",
-        "I don't have a microwave, but I do have a clock that occasioanally cooks shit.",
-        "Two scientists walk into a bar. One says 'I'll have a H20.' The other says 'I'll have a H20, too.' He died.",
-        "What does every tickle-me elmo get before leaving the factory? Two test tickles.",
-        "I'm reading a book of anti-gravity and it's impossible to put down.",
-        "Why did the frog say Quark? Because he had to fart. -David",
-        "Why do birds fly south in the winter? Because it's too far to walk.",
-        "What do you call a cow with no legs? Ground beef.",
-        "What do you call chees that isn't yours? Nacho cheese.",
-    ];
-    const randomjoke = jokes[Math.floor(Math.random() * jokes.length)];
-    alert(randomjoke);
+    fetch('https://official-joke-api.appspot.com/jokes/random')
+        .then(response => response.json())
+        .then(joke => {
+            alert(`${joke.setup} ${joke.punchline}`);
+        })
+        .catch(error => {
+            console.error("Error fetching joke:", error);
+            alert("Sorry, couldn't fetch a joke right now!");
+        });
 }
+
 
 function question() {
     var feedback = prompt("Provide feedback so we can improve, and what was your favorite joke?");
