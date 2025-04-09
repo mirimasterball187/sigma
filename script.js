@@ -111,9 +111,9 @@ function spezi() {
 
 
 function roastMeShakespeareStyle() {
-    const part1 = ["Thou", "Ye", "O", "Hark, thou"];
-    const part2 = ["artless", "bootless", "clouted", "frothy", "reeky", "puny", "craven", "paunchy"];
-    const part3 = ["hedge-pig", "scullion", "maggot-pie", "clotpole", "bum-bailey", "popinjay", "horn-beast"];
+    const part1 = ["Thou", "Ye", "O", "Hark, thou", "O, ye", "Thou art a"];
+    const part2 = ["artless", "bootless", "clouted", "frothy", "reeky", "puny", "craven", "paunchy", "brainless", "foolish", "villainous", "crusty", "clouted", "spongy", "shrivelled", "unwash'd", "pox-marked", "weedy", "hasty-witted"];
+    const part3 = ["hedge-pig", "scullion", "maggot-pie", "clotpole", "bum-bailey", "popinjay", "horn-beast", "moldwarp", "toad", "wart", "leech", "knave", "bladder", "codpiece", "whey-face", "tallow-catch", "miscreant", "wretch", "baggage"];
 
     const insult = `${part1[Math.floor(Math.random() * part1.length)]} ${part2[Math.floor(Math.random() * part2.length)]} ${part3[Math.floor(Math.random() * part3.length)]}!`;
 
